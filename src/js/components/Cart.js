@@ -82,6 +82,7 @@ class Cart{
 
     thisCart.dom.deliveryFee.innerHTML = thisCart.deliveryFee;
     thisCart.dom.subTotalPrice.innerHTML = thisCart.subtotalPrice;
+    thisCart.dom.totalNumber.innerHTML = thisCart.totalNumber;
     for(let list of thisCart.dom.totalPrice) {
       list.innerHTML = thisCart.totalPrice;
     }
