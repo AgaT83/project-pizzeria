@@ -4,7 +4,6 @@ class BaseWidget{
 
     thisWidget.dom = {};
     thisWidget.dom.wrapper = wrapperElement;
-
     thisWidget.correctValue = initialValue;
   }
 
@@ -24,7 +23,6 @@ class BaseWidget{
       thisWidget.announce();
     }
 
-    // thisWidget.input.value = thisWidget.value;
     thisWidget.renderValue();
   }
 
