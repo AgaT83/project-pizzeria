@@ -175,7 +175,7 @@
               "price": 1,
               "default": true
             },
-            "olives": {
+            "olive": {
               "label": "Olives",
               "price": 1,
               "default": true
