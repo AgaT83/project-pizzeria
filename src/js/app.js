@@ -122,23 +122,3 @@ const app = {
 
 app.init();
 app.initBooking();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

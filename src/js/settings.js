@@ -60,9 +60,14 @@ export const select = {
     remove: '[href="#remove"]',
   },
   booking: {
+    form: '.booking-form',
     peopleAmount: '.people-amount',
     hoursAmount: '.hours-amount',
     tables: '.floor-plan .table',
+    plan: '.floor-plan',
+    phone: '[name="phone"]',
+    address: '[name="address"]',
+    bookingStarters: '.booking-options [type="checkbox"]'
   },
   nav: {
     links: '.main-nav a',
@@ -80,6 +85,7 @@ export const classNames = {
   booking: {
     loading: 'loading',
     tableBooked: 'booked',
+    tableSelected: 'selected',
   },
   nav: {
     active: 'active',
